@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"/>
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles/output.css">
+    <title>Cardapio Bem Brownieria</title>
+</head>
+<body>
+
+    <!--HEADER-->
+<header class="w-full h-[420px] bg-zinc-900 bg-home bg-cover bg-center">
+    <div class="w-full h-full flex flex-col justify-center items-center">
+        <img src="./assets/logo.png"
+        alt="Logo Bem Brownieria"
+        class="w-80 h-80 rounded-full shadow-lg hover:scale-110 duration-200"
+        >
+        <!-- <h1 class=" text-3x1 mt-4 mb-2 font-bold text-white">Bem Brownieria</h1> -->
+    <div class="bg-green-600 px-4 py-1 rounded-lg mt-5" id="date-span">
+        <span class="text-white font-medium"> Seg á Sex - 09:00 as 18:00 </span>
+
+    </div>
+   
+</header>
+    <!--FIM HEADER-->
+
+    <h2 class="text-2xl md:text-3x1 font-bold text-center mt-9 mb-6">
+        Brownies Tradicionais - 100G / 7X7
+    </h2>
+    <!-- INICIO MENU-->
+
+    <div id="menu">
+
+    <main class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16">
+        <!--PRODUTO ITEM -->
+        <div class="flex gap-2">
+            <!-- <img 
+            src="./assets/um brownie clássico .png"
+            alt="brownie clássico"
+            class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+            /> -->
+            <div>
+                <p class="font-bold"> Brownie Clássico</p>
+                <p class="text-sm">Nosso brownie é macio por dentro, com uma crostinha delicada e um blend especial de chocolate amargo. Super chocolatudo e irresistível, com pedaços de chocolate 50%.</p>
+                 <p class="text-gray-500 text-sm mt-3 text-justify"> Ingredientes: Farinha de trigo, ovos, açúcar demerara, manteiga,cacau em pó e chocolate amargo nobre e castanhas.</p>
+                <div class="flex items-center gap-2 justify-between mt-3">
+                    <p class="font-bold text-lg">R$ 18.90</p>
+                    <button 
+                        class="bg-gray-800 px-5 rounded add-to-cart-btn"
+                        data-name="Brownie Clássico"
+                        data-price="18.90"
+                    >
+
+                        <i class=" fa fa-cart-plus text-lg text-white"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+      <!-- FIM PRODUTO ITEM -->
+       <!--PRODUTO ITEM -->
+        <div class="flex gap-2">
+            <!-- <img 
+            src="./assets/um brownie clássico .png"
+            alt="brownie clássico"
+            class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+            /> -->
+            <div>
+                <p class="font-bold"> Brownie Chocolate </p>
+                <p class="text-sm">Um Brownie fudgy, com um recheio cremoso de brigadeiro de chocolate meio amargo, realçando o sabor do chocolate nobre. </p>
+                 <p class="text-gray-500 text-sm mt-3 text-justify"> Ingredientes: Farinha de trigo, ovos, leite, açúcar demerara, manteiga, cacau e chocolate amargo nobre.</p>
+                <div class="flex items-center gap-2 justify-between mt-3">
+                    <p class="font-bold text-lg">R$ 18.90</p>
+                    <button 
+                        class="bg-gray-800 px-5 rounded add-to-cart-btn"
+                        data-name="Brownie chocolate"
+                        data-price="18.90"
+                    >
+
+                        <i class=" fa fa-cart-plus text-lg text-white"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+      <!-- FIM PRODUTO ITEM -->
+        <!--PRODUTO ITEM -->
+        <div class="flex gap-2">
+            <!-- <img 
+            src="./assets/brownie servido com .png"
+            alt="brownie Brigadeiro "
+            class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+            /> -->
+            <div>
+                <p class="font-bold"> Brownie Beijinho de Coco </p>
+                <p class="text-sm">Brownie intenso de chocolate amargo, com um recheio cremoso de beijinho cremoso.</p>
+                 <p class="text-gray-500 text-sm mt-3 text-justify"> Ingredientes: Farinha de trigo, ovos, açúcar demerara, manteiga,cacau, chocolate amargo nobre, leite de coco e flocos de coco sem açúcar.</p>
+                <div class="flex items-center gap-2 justify-between mt-3">
+                    <p class="font-bold text-lg">R$ 18.90</p>
+                    <button 
+                        class="bg-gray-800 px-5 rounded add-to-cart-btn"
+                        data-name="Brownie Beijinho de Coco"
+                        data-price="18.90"
+                    >
+
+                        <i class=" fa fa-cart-plus text-lg text-white"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+      <!-- FIM PRODUTO ITEM -->
+       <!--PRODUTO ITEM -->
+        <div class="flex gap-2">
+            <!-- <img 
+            src="./assets/brownie de chocolate.png"
+            alt="Beijinho "
+            class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+            /> -->
+            <div>
+                <p class="font-bold"> Doce de leite  </p>
+                <p class="text-sm text-justify">Brownie clássico, denso e chocolatudo, com recheio generoso de doce de leite.</p>
+                   <p class="text-gray-500 text-sm mt-3 text-justify">  Ingredientes: Farinha de trigo, ovos, leite, açúcar demerara, manteiga, cacau, chocolate amargo nobre e doce de leite artesanal.</p>
+                <div class="flex items-center gap-2 justify-between mt-3">
+                    <p class="font-bold text-lg">R$ 18.90</p>
+                    <button 
+                        class="bg-gray-800 px-5 rounded add-to-cart-btn"
+                        data-name="Beijinho"
+                        data-price="18.90"
+                    >
+
+                        <i class=" fa fa-cart-plus text-lg text-white"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+      <!-- FIM PRODUTO ITEM -->
+    </main>
+
+    <div class="mx-auto max-w-7xl px-2 my-2">
+         <h2 class="text-2xl md:text-3x1 font-bold text-center mt-9 mb-6">
+        Brownie Premiuns - 100G / 7X7
+    </h2>
+
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16" id="menu">
+
+         <!--PRODUTO ITEM -->
+        <div class="flex gap-2">
+            <!-- <img 
+            src="./assets/brownie com recheio .png"
+            alt="brownie Brigadeiro "
+            class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+            /> -->
+            <div>
+                <p class="font-bold"> Avelã & Castanhas </p>
+                <p class="text-sm text-justify">Brownie clássico recheado com brigadeiro de chocolate meio amargo e granulado de castanhas, oferecendo uma combinação única de sabor e textura. </p>
+                  <p class="text-gray-500 text-sm mt-3">Ingredientes: farinha de trigo, ovos, leite, açúcar demerara, manteiga, cacau, chocolate amargo nobre, castanhas e creme de avelãs.</p>
+                <div class="flex items-center gap-2 justify-between mt-3">
+                    <p class="font-bold text-lg">R$ 18.90</p>
+                    <button 
+                        class="bg-gray-800 px-5 rounded add-to-cart-btn"
+                        data-name="Brownie de Avelã & Castanhas"
+                        data-price="18.90"
+                    >
+
+                        <i class=" fa fa-cart-plus text-lg text-white"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+      <!-- FIM PRODUTO ITEM -->
+
+        <!--PRODUTO ITEM -->
+        <div class="flex gap-2">
+            <!-- <img 
+            src="./assets/brownie com recheio .png"
+            alt="brownie Brigadeiro "
+            class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+            /> -->
+            <div>
+                <p class="font-bold"> Chocolate Branco & Morango</p>
+                <p class="text-sm text-justify">Um brownie de chocolate macio, com uma geleia artesanal de morangos e  creme trufado de chocolate branco. A acidez do morango equilibra a doçura do chocolate branco, criando uma experiência sofisticada e refrescante.
+                    <p class="text-gray-500 text-sm mt-2 ">Ingredientes: farinha de trigo, ovos, leite, açúcar demerara, manteiga , cacau, chocolate amargo nobre, chocolate branco, morango e maçã. </p>
+                <div class="flex items-center gap-2 justify-between mt-3">
+                    <p class="font-bold text-lg">R$ 18.90</p>
+                    <button 
+                        class="bg-gray-800 px-5 rounded add-to-cart-btn"
+                        data-name="Brownie de Chocolate Branco & Morango"
+                        data-price="18.90"
+                    >
+
+                        <i class=" fa fa-cart-plus text-lg text-white"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+      <!-- FIM PRODUTO ITEM -->
+          <!--PRODUTO ITEM -->
+        <div class="flex gap-2">
+            <!-- <img 
+            src="./assets/brownie com recheio .png"
+            alt="brownie Brigadeiro "
+            class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+            /> -->
+            <div>
+                <p class="font-bold"> Blondie de Limão </p>
+                <p class="text-sm text-justify">Blondie de chocolate branco com limão siciliano, trazendo frescor e leveza. A combinação de raspas e suco de limão cria um toque cítrico que se mistura à textura macia do brownie. 
+                   <p class="text-gray-500 text-sm mt-2 "> Ingredientes: Farinha de trigo, ovos, leite, açúcar demerara, manteiga, cacau, chocolate amargo nobre, chocolate branco e limão siciliano. </p>
+                <div class="flex items-center gap-2 justify-between mt-3">
+                    <p class="font-bold text-lg">R$ 18.90</p>
+                    <button 
+                        class="bg-gray-800 px-5 rounded add-to-cart-btn"
+                        data-name="Brownie de Blondie de Limão"
+                        data-price="18.90"
+                    >
+
+                        <i class=" fa fa-cart-plus text-lg text-white"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+      <!-- FIM PRODUTO ITEM -->
+        <!--PRODUTO ITEM -->
+        <div class="flex gap-2">
+            <!-- <img 
+            src="./assets/brownie com recheio .png"
+            alt="brownie Brigadeiro "
+            class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+            /> -->
+            <div>
+                <p class="font-bold"> Maracujá </p>
+                <p class="text-sm text-justify">Uma combinação irresistível de chocolate, recheado com um cremoso e refrescante recheio de maracujá, que traz o equilíbrio entre o doce e o azedinho da fruta. Uma sobremesa que vai surpreender seu paladar, oferecendo a fusão de sabores intensos e tropicais.
+                <p class="text-gray-500 text-sm mt-2 "> Ingredientes: Farinha de trigo, ovos, leite, açúcar demerara,manteiga, sal, cacau, chocolate amargo nobre, chocolate branco e polpa de maracujá. </p>
+                <div class="flex items-center gap-2 justify-between mt-3">
+                    <p class="font-bold text-lg">R$ 18.90</p>
+                    <button 
+                        class="bg-gray-800 px-5 rounded add-to-cart-btn"
+                        data-name="Brownie de Maracujá"
+                        data-price="18.90"
+                    >
+
+                        <i class=" fa fa-cart-plus text-lg text-white"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+      <!-- FIM PRODUTO ITEM -->
+        <!--PRODUTO ITEM -->
+        <div class="flex gap-2">
+            <!-- <img 
+            src="./assets/brownie com recheio .png"
+            alt="brownie Brigadeiro "
+            class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+            /> -->
+            <div>
+                <p class="font-bold"> Paçoca Crocante </p>
+                <p class="text-sm text-justify">Brownie clássico, feito com chocolate nobre amargo, recheado com um brigadeiro cremoso de paçoca e farofa de amendoim crocante, trazendo a combinação perfeita de sabor e textura.
+                <p class="text-gray-500 text-sm mt-2 ">Ingredientes: Farinha de trigo, ovos, leite, açúcar demerara, manteiga, cacau, chocolate amargo nobre e  amendoim.</p>
+                <div class="flex items-center gap-2 justify-between mt-3">
+                    <p class="font-bold text-lg">R$ 18.90</p>
+                    <button 
+                        class="bg-gray-800 px-5 rounded add-to-cart-btn"
+                        data-name="Brownie de Paçoca Crocante"
+                        data-price="18.90"
+                    >
+
+                        <i class=" fa fa-cart-plus text-lg text-white"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+      <!-- FIM PRODUTO ITEM -->
+        <!--PRODUTO ITEM -->
+        <div class="flex gap-2">
+            <!-- <img 
+            src="./assets/brownie vegano com c.png"
+            alt="Mix Nuts "
+            class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+            /> -->
+            <div>
+                <p class="font-bold"> Cookies & Cream </p>
+                <p class="text-sm text-justify"> Uma camada de brownie de chocolate fudgy, recheada com creme de Ninho trufado, finalizado com crocante de biscoito no topo da massa, criando a combinação perfeita com a  suavidade do brownie tradicional.
+                <p class="text-gray-500 text-sm mt-2 ">Ingredientes: Farinha de trigo, ovos, leite, açúcar demerara, manteiga, cacau, chocolate amargo nobre, chocolate branco, baunilha e biscoito de chocolate.</p>
+                <div class="flex items-center gap-2 justify-between mt-3">
+                    <p class="font-bold text-lg">R$ 18.90</p>
+                    <button 
+                        class="bg-gray-800 px-5 rounded add-to-cart-btn"
+                        data-name="Brownie de Cookies & Cream"
+                        data-price="18.90"
+                    >
+
+                        <i class=" fa fa-cart-plus text-lg text-white"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+      <!-- FIM PRODUTO ITEM -->
+        
+
+<div 
+    class="bg-black/60 w-full h-full fixed top-0 left-0 z-[99] items-center justify-center hidden"
+    id="cart-modal"
+>
+
+
+
+    <div class="bg-white p-5 rounded-md min-w-[90%] md:min-w-[600px]">
+        <h2 class="text-center font-bold text-2xl mb-2"> Meu carrinho</h2>
+
+        <div id="cart-items" class="flex justify-between mb-2 flex-col"></div>
+
+        <p class="font-bold">Total: <span id="cart-total">0.00</span></p>
+
+        <p class="font-bold mt-4">Endereço de Entrega:</p>
+
+        <input
+        type="text"
+        placeholder="Digite seu Endereço completo"
+        id="address"
+        class="w-full border-2 p-1 rounded my-1"
+        >
+        <p class="text-red-500 hidden" id="address-warn"> Digite seu endereço completo</p>
+        
+        <div class="flex items-center justify-between mt-5 w-full">
+            <button id="close-modal-btn"> Fechar </button>
+            <button id="checkout-btn" class="bg-green-500 text-white px-4 py-1 rounded"> Solicitar Encomenda </button>
+        </div>
+        
+    </div> 
+
+</div>
+
+
+<footer class="w-full bg-orange-300 py-3 fixed bottom-0 z-40 flex items-center justify-center">
+    <button 
+      class = "flex items-center gap-2 text-white font-bold"
+      id="cart-btn"
+      >
+        (<span id="cart-count">0</span>)
+        Meu carrinho
+        <i class=" fa fa-cart-plus text-lg text-white"></i>
+    </button>
+</footer>  
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+<script src="script.js"></script>
+</body>
+</html>
