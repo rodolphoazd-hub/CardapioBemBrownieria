@@ -180,7 +180,8 @@ checkoutBtn.addEventListener("click", function(){
 function chckDoceriaOpen(){
     const data = new Date();
     const hora = data.getHours();
-    return hora >= 10 && hora < 18;
+    const diaDaSemana = data.getDay();
+    return diaDaSemana >= 1 && diaDaSemana <= 5 && hora >= 9 && hora < 18
 }
 
 const spanItem = document.getElementById("date-span")

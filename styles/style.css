@@ -6,3 +6,26 @@
 body{
     background-color: #f6f7f8;
 }
+#cart-modal {
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#cart-modal-content {
+    max-height: 80vh;  /* Limita a altura máxima do conteúdo */
+    overflow-y: auto;  /* Adiciona barra de rolagem vertical quando necessário */
+    padding-right: 3px; /* Previne sobreposição da rolagem */
+}
+
+.cart-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.cart-total {
+    padding: 10px;
+    font-weight: bold;
+    background-color: #f4f4f4;
+    text-align: right;
+}
