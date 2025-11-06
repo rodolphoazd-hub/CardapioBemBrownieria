@@ -1,17 +1,19 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./**/*.{html,js}"],
+  content: [
+    "./index.html",
+    "./styles/**/*.{html,js,css}",
+    "./script.js",
+  ],
   theme: {
-    fontFamily:{
-      'sans':['Montserrat','sans-serif']
-
+    fontFamily: {
+      'sans': ['Montserrat', 'sans-serif'],
     },
     extend: {
-     backgroundImage:{
-      "home":"url('/assets/bg.jpg')"
-     } 
+      backgroundImage: {
+        "home": "url('/assets/bg.jpg')",
+      },
     },
   },
   plugins: [],
 }
-

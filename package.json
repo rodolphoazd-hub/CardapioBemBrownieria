@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-  "build": "npx tailwindcss -i ./styles/style.css -o ./styles/output.css --watch"
+  "build": "npx tailwindcss -i ./styles/style.css -o ./styles/output.css",
+  "dev": "npx tailwindcss -i ./styles/style.css -o ./styles/output.css --watch"
+
 },
 
   "keywords": [],
